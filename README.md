@@ -14,6 +14,8 @@ brew install --cask <app>
 | [Swarm](https://github.com/Nurik-dz/Swarm) | `brew install --cask nurik-dz/tap/swarm` | Torrent client with plain-language status and streaming |
 | [Stalker Player](https://github.com/Nurik-dz/StalkerPlayer) | `brew install --cask nurik-dz/tap/stalker-player` | Player for Stalker / Ministra IPTV portals |
 
+If Homebrew says the tap is untrusted, run `brew trust nurik-dz/tap` once.
+
 All apps need macOS 26 or later on Apple silicon.
 
 Update: `brew upgrade --cask <app>` · Remove: `brew uninstall --cask <app>` (add `--zap` to also remove settings and caches).
